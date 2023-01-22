@@ -24,6 +24,8 @@ namespace ByteBank
         {
             Console.WriteLine("Lendo linha. . .");
 
+            //throw new Exception();
+
             throw new IOException();
 
             return "Linha do arquivo";
